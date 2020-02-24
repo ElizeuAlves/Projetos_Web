@@ -3,15 +3,6 @@ body {
     background-color: #fbf8fb;
 }
 
-a {
-    color: #fdb919;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 div#principal div#cabecalho {
     background-color: #ffca06;
     margin: -21px -10px;
@@ -37,10 +28,6 @@ div#principal div#cabecalho ul#menu {
 
 }
 
-div#principal div#cabecalho ul#menu li a {
-    color: white;
-}
-
 div#principal div#cabecalho ul#menu li {
     /*border: 1px solid red;*/
     display: inline;
@@ -48,13 +35,15 @@ div#principal div#cabecalho ul#menu li {
     padding: 10px;
 }
 
-div#principal div#cabecalho ul#menu li a:hover {
-    color: #ffca06;
-    background-color: #ffffff;
+div#principal div#cabecalho ul#menu li a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
-div#principal div#cabecalho ul#menu li:hover{
+div#principal div#cabecalho ul#menu li:hover, div#principal div#cabecalho ul#menu li a:hover{
+    color: #ffca06;
     background-color: #ffffff;
+    text-decoration: underline;
 }
 
 div#principal div.conteudo {
@@ -87,6 +76,15 @@ div#principal div.lateral {
     margin-bottom: 20px;
     padding: 10px 10px;
     float: left;
+}
+
+div#principal div.conteudo a, div.lateral a {
+    color: #fdb919;
+    text-decoration: none;
+}
+
+div#principal div.conteudo a:hover, div.lateral a:hover {
+    text-decoration: underline;
 }
 
 div#principal div.lateral ul {
