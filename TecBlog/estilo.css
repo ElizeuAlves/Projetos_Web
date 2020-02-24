@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fbf8fb;
+}
+
+div#principal div#cabecalho {
+    background-color: #ffca06;
+    margin: -21px -10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+div#principal div#cabecalho h1 {
+    font-size: 40px;
+}
+
+div#principal div#cabecalho span.titulo {
+    color: #544d2b;
+}
+
+div#principal div#cabecalho ul#menu {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 25px;
+}
+
+div#principal div#cabecalho ul#menu li {
+    display: inline;
+    padding-right: 25px;
+}
+
+div#principal div.conteudo {
+    border: 1px solid red;
+    background-color: #ffffff;
+    width: 650px;
+    padding: 10px 10px ;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+div#principal div.lateral {
+    border: 1px solid red;
+    position: relative;
+    display: block;
+    width: 420px;
+    top: -700px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    float: left;
+}
+
+div#principal div.lateral ul {
+    list-style: none;
+    padding: 0px 1px 1px 5px;
+}
+
+div#principal div.lateral h3 {
+    color: #656566;
+    width: 50%;
+    background-color: #dcdadd;
+    padding: 5px;
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+
+div#principal div.contato {
+    float: right;
+}
+
+div#principal div.clear {
+    clear: both;
+}
+
