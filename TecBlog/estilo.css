@@ -1,3 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: #ffca06;
+    background: #ffffff;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fbf8fb;
@@ -5,8 +24,7 @@ body {
 
 div#principal div#cabecalho {
     background-color: #ffca06;
-    margin: -21px -10px;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
     text-align: center;
     color: #ffffff;
@@ -22,10 +40,10 @@ div#principal div#cabecalho span.titulo {
 }
 
 div#principal div#cabecalho ul#menu {
+    padding: 10px;
     text-decoration: none;
     text-align: center;
     margin-top: 25px;
-
 }
 
 div#principal div#cabecalho ul#menu li {
@@ -35,22 +53,11 @@ div#principal div#cabecalho ul#menu li {
     padding: 10px;
 }
 
-div#principal div#cabecalho ul#menu li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-div#principal div#cabecalho ul#menu li:hover, div#principal div#cabecalho ul#menu li a:hover{
-    color: #ffca06;
-    background-color: #ffffff;
-    text-decoration: underline;
-}
-
 div#principal div.conteudo {
     /*border: 1px solid red;*/
     background-color: #ffffff;
     width: 650px;
-    padding: 10px 10px ;
+    padding: 20px 20px;
     margin-left: 500px;
     margin-bottom: 20px;
     float: left;
@@ -58,11 +65,11 @@ div#principal div.conteudo {
 
 div#principal div.conteudo h2 {
     color: #fdc620;
-    margin-bottom: -15px;
+    /*margin-bottom: -15px;*/
 }
 
 div#principal div.conteudo img {
-    margin: 5px auto;
+    margin: 20px auto;
 }
 
 div#principal div.lateral {
@@ -71,20 +78,25 @@ div#principal div.lateral {
     position: relative;
     display: block;
     width: 250px;
-    margin-left: 20px;
-    margin-right: 200px;
+    margin-right: 400px;
     margin-bottom: 20px;
     padding: 10px 10px;
-    float: left;
+    float: right;
 }
 
 div#principal div.conteudo a, div.lateral a {
     color: #fdb919;
     text-decoration: none;
+    margin-bottom: 10px;
+}
+
+div#principal div.lateral p {
+    margin: 10px;
 }
 
 div#principal div.conteudo a:hover, div.lateral a:hover {
     text-decoration: underline;
+    padding: 0px 12px;
 }
 
 div#principal div.lateral ul {
@@ -97,8 +109,7 @@ div#principal div.lateral h3 {
     width: 95%;
     background-color: #dcdadd;
     padding: 6px;
-    margin-bottom: -10px;
-    margin-top: 0px;
+    margin-bottom: 10px;    
 }
 
 div#principal div.lateral ul#categoria li {
@@ -126,6 +137,6 @@ div#principal div#rodape {
     text-align: center;
     background-color: #dcdadd;
     width: 900px;
-    padding: 1px;
+    padding: 20px;
     margin: auto;
 }
